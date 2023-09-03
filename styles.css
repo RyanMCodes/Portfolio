@@ -2,13 +2,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
 }
 
 /* Header styles */
 h2 {
   text-align: center;
   margin-top: 20px;
+  color: #333;
 }
 
 /* Profile image styles */
@@ -16,15 +18,17 @@ img {
   display: block;
   margin: 0 auto;
   border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Main content container */
 h4, h3 {
   margin-left: 20px;
+  color: #333;
 }
 
 ul {
-  list-style-type: square;
+  list-style-type: disc;
   margin-left: 40px;
   padding-left: 10px;
 }
@@ -35,4 +39,27 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 10px;
+}
+
+/* Navigation menu styles */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: #007BFF;
 }
